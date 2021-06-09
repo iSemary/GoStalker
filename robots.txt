@@ -1,0 +1,6 @@
+user-agent: Googlebot
+disallow:
+user-agent: *
+Allow: /
+
+stiemap: https://www.gostalker.com/sitemap.xml

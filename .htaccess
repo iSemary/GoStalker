@@ -1,0 +1,35 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+Options -Indexes
+
+#ErrorDocument 403 http://localhost/GoStalker/404
+#ErrorDocument 404 http://localhost/GoStalker/404
+
+RewriteBase /GoStalker/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^notification notification.php [NC,L]
+RewriteRule ^home home.php [NC,L]
+RewriteRule ^404 404.php [NC,L]
+RewriteRule ^deactivate-account deactivate-account.php [NC,L]
+RewriteRule ^messages messages.php [NC,L]
+RewriteRule ^login login.php [NC,L]
+RewriteRule ^signup signup.php [NC,L]
+RewriteRule ^blocked-users blocked-users.php [NC,L]
+RewriteRule ^change-email change-email.php [NC,L]
+RewriteRule ^logout logout.php [NC,L]
+RewriteRule ^myprofile myprofile.php [NC,L]
+RewriteRule ^forget-password forget-password.php [NC,L]
+RewriteRule ^anonymousmessages anonymousmessages.php [NC,L]
+RewriteRule ^conditions conditions.php [NC,L]
+RewriteRule ^search search.php [NC,L]
+RewriteRule ^settings settings.php [NC,L]
+RewriteRule ^stalkers stalkers.php [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+) userprofile.php?username=$1 [NC,L]
+
+</IfModule>

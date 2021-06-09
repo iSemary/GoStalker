@@ -1,0 +1,12 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+#ErrorDocument 403 http://localhost/GoStalker/404
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([0-9a-zA-Z]+) sendmessages.php?username=$1 [NC,L]
+
+</IfModule>

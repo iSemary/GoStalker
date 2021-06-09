@@ -20,6 +20,7 @@ cd gostalker
 ```bash
 mysql -u root -p gostalker < gostalker.sql
 ```
+#### Add Email / Password in Mail Class (api/classes/mail.php)
 #### Insert users data with a password:sha1 Encryption
 #### Finally, open http://localhost/gostalker 
 ## Requirements

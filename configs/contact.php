@@ -29,7 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   if (strlen($Contactsubject) >= 10) {
     $formErrors[] = "Subject can't be more than 10 characters.";
   }
-  $goMail = 'GoStalkerInc@gmail.com';
+  // your email
+  $goMail = 'test@gmail.com';
   $headers = 'From:' . $Contactemail . '\r\n';
   foreach($formErrors as $error) {
     echo $error;

@@ -1,10 +1,6 @@
 # GoStalker
 
 <b>Gostalker is a social network project similar to twitter + saraha with new functions and ideas.</b>
-<hr>
-<br>
-<a href="https://www.buymeacoffee.com/iSemary" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
 
 ## Features
 
@@ -51,5 +47,4 @@ mysql -u root -p gostalker < gostalker.sql
 <ul>
     <li>Apache Server (Xampp / Wamp)</li>
     <li>MySQL Sever</li>
-    <li>IDE</li>
 </ul>

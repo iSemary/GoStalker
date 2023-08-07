@@ -22,6 +22,7 @@
 <img src="https://github.com/iSemary/GoStalker/blob/master/preview/5.webp" height="350px" alt="Image 5">
 <img src="https://github.com/iSemary/GoStalker/blob/master/preview/6.webp" height="350px" alt="Image 6">
 <img src="https://github.com/iSemary/GoStalker/blob/master/preview/7.webp" height="350px" alt="Image 7">
+<img src="https://github.com/iSemary/GoStalker/blob/master/preview/8.webp" height="350px" alt="Image 8">
 
 
 
